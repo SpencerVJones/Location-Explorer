@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7CFFEBF2BDD758B006E2BF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFFEBE2BDD758B006E2BF1 /* AppDelegate.swift */; };
+		F7CFFEC12BDD758B006E2BF1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFFEC02BDD758B006E2BF1 /* SceneDelegate.swift */; };
+		F7CFFEC32BDD758B006E2BF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFFEC22BDD758B006E2BF1 /* ViewController.swift */; };
+		F7CFFEC62BDD758B006E2BF1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F7CFFEC52BDD758B006E2BF1 /* Base */; };
+		F7CFFEC82BDD758D006E2BF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7CFFEC72BDD758D006E2BF1 /* Assets.xcassets */; };
+		F7CFFECB2BDD758D006E2BF1 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F7CFFECA2BDD758D006E2BF1 /* Base */; };
+		F7CFFED32BDD7812006E2BF1 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFFED22BDD7812006E2BF1 /* SearchViewController.swift */; };
+		F7CFFED52BDD78AD006E2BF1 /* zips.json in Resources */ = {isa = PBXBuildFile; fileRef = F7CFFED42BDD78AD006E2BF1 /* zips.json */; };
+		F7CFFED72BDD7D5C006E2BF1 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFFED62BDD7D5C006E2BF1 /* Location.swift */; };
+		F7CFFED92BDD84B2006E2BF1 /* ResultsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFFED82BDD84B2006E2BF1 /* ResultsTableViewCell.swift */; };
+		F7CFFEDD2BDDA2DD006E2BF1 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CFFEDC2BDDA2DD006E2BF1 /* SearchTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F7CFFEBB2BDD758B006E2BF1 /* JonesSpencer_SearchBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JonesSpencer_SearchBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7CFFEBE2BDD758B006E2BF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7CFFEC02BDD758B006E2BF1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7CFFEC22BDD758B006E2BF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F7CFFEC52BDD758B006E2BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7CFFEC72BDD758D006E2BF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7CFFECA2BDD758D006E2BF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7CFFECC2BDD758D006E2BF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7CFFED22BDD7812006E2BF1 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		F7CFFED42BDD78AD006E2BF1 /* zips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = zips.json; sourceTree = "<group>"; };
+		F7CFFED62BDD7D5C006E2BF1 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F7CFFED82BDD84B2006E2BF1 /* ResultsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsTableViewCell.swift; sourceTree = "<group>"; };
+		F7CFFEDC2BDDA2DD006E2BF1 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7CFFEB82BDD758B006E2BF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F7CFFEB22BDD758B006E2BF1 = {
+			isa = PBXGroup;
+			children = (
+				F7CFFEBD2BDD758B006E2BF1 /* JonesSpencer_SearchBar */,
+				F7CFFEBC2BDD758B006E2BF1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F7CFFEBC2BDD758B006E2BF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7CFFEBB2BDD758B006E2BF1 /* JonesSpencer_SearchBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7CFFEBD2BDD758B006E2BF1 /* JonesSpencer_SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				F7CFFEBE2BDD758B006E2BF1 /* AppDelegate.swift */,
+				F7CFFEC02BDD758B006E2BF1 /* SceneDelegate.swift */,
+				F7CFFEC42BDD758B006E2BF1 /* Main.storyboard */,
+				F7CFFEC22BDD758B006E2BF1 /* ViewController.swift */,
+				F7CFFED82BDD84B2006E2BF1 /* ResultsTableViewCell.swift */,
+				F7CFFED22BDD7812006E2BF1 /* SearchViewController.swift */,
+				F7CFFEDC2BDDA2DD006E2BF1 /* SearchTableViewCell.swift */,
+				F7CFFED62BDD7D5C006E2BF1 /* Location.swift */,
+				F7CFFED42BDD78AD006E2BF1 /* zips.json */,
+				F7CFFEC72BDD758D006E2BF1 /* Assets.xcassets */,
+				F7CFFEC92BDD758D006E2BF1 /* LaunchScreen.storyboard */,
+				F7CFFECC2BDD758D006E2BF1 /* Info.plist */,
+			);
+			path = JonesSpencer_SearchBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7CFFEBA2BDD758B006E2BF1 /* JonesSpencer_SearchBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7CFFECF2BDD758D006E2BF1 /* Build configuration list for PBXNativeTarget "JonesSpencer_SearchBar" */;
+			buildPhases = (
+				F7CFFEB72BDD758B006E2BF1 /* Sources */,
+				F7CFFEB82BDD758B006E2BF1 /* Frameworks */,
+				F7CFFEB92BDD758B006E2BF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JonesSpencer_SearchBar;
+			productName = JonesSpencer_SearchBar;
+			productReference = F7CFFEBB2BDD758B006E2BF1 /* JonesSpencer_SearchBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7CFFEB32BDD758B006E2BF1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F7CFFEBA2BDD758B006E2BF1 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = F7CFFEB62BDD758B006E2BF1 /* Build configuration list for PBXProject "JonesSpencer_SearchBar" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7CFFEB22BDD758B006E2BF1;
+			productRefGroup = F7CFFEBC2BDD758B006E2BF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7CFFEBA2BDD758B006E2BF1 /* JonesSpencer_SearchBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7CFFEB92BDD758B006E2BF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CFFEC82BDD758D006E2BF1 /* Assets.xcassets in Resources */,
+				F7CFFECB2BDD758D006E2BF1 /* Base in Resources */,
+				F7CFFEC62BDD758B006E2BF1 /* Base in Resources */,
+				F7CFFED52BDD78AD006E2BF1 /* zips.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7CFFEB72BDD758B006E2BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7CFFEC32BDD758B006E2BF1 /* ViewController.swift in Sources */,
+				F7CFFEBF2BDD758B006E2BF1 /* AppDelegate.swift in Sources */,
+				F7CFFED92BDD84B2006E2BF1 /* ResultsTableViewCell.swift in Sources */,
+				F7CFFED72BDD7D5C006E2BF1 /* Location.swift in Sources */,
+				F7CFFEDD2BDDA2DD006E2BF1 /* SearchTableViewCell.swift in Sources */,
+				F7CFFED32BDD7812006E2BF1 /* SearchViewController.swift in Sources */,
+				F7CFFEC12BDD758B006E2BF1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7CFFEC42BDD758B006E2BF1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CFFEC52BDD758B006E2BF1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7CFFEC92BDD758D006E2BF1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7CFFECA2BDD758D006E2BF1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7CFFECD2BDD758D006E2BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7CFFECE2BDD758D006E2BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7CFFED02BDD758D006E2BF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GD6H63ZU48;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JonesSpencer_SearchBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SpencerJones.JonesSpencer-SearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7CFFED12BDD758D006E2BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GD6H63ZU48;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JonesSpencer_SearchBar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SpencerJones.JonesSpencer-SearchBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7CFFEB62BDD758B006E2BF1 /* Build configuration list for PBXProject "JonesSpencer_SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CFFECD2BDD758D006E2BF1 /* Debug */,
+				F7CFFECE2BDD758D006E2BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7CFFECF2BDD758D006E2BF1 /* Build configuration list for PBXNativeTarget "JonesSpencer_SearchBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7CFFED02BDD758D006E2BF1 /* Debug */,
+				F7CFFED12BDD758D006E2BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7CFFEB32BDD758B006E2BF1 /* Project object */;
+}
