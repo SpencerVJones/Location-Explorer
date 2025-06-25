@@ -1,4 +1,9 @@
 # Location-Explorer
+ <div align="left">
+	
+  ![Repo Views](https://visitor-badge.laobi.icu/badge?page_id=SpencerVJones/Location-Explorer)
+</div>
+
  iOS application that allows users to search for locations based on city names and filter the results by city and state. 
 
 ## Features
